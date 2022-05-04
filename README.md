@@ -1,7 +1,8 @@
 # CCP
 
 ## Sobre
-    É um repositório com as demais perguntas, respostas e atividades feitas no curso todo e qualquer, nome ou dado pessoal ou de terceiros não está sendo compartilhado, PDF's de aulas não será disponibilizado por ser conteúdo institucional, apenas está disponível, perguntas e respostas que são de autoria pessoal e de demais atividades realizadas.
+   É um repositório com as demais perguntas, respostas e atividades feitas no curso todo e qualquer, nome ou dado pessoal ou de terceiros não está sendo compartilhado, PDF's de aulas não será disponibilizado por ser conteúdo institucional, apenas está disponível, perguntas e respostas que são de autoria pessoal e de demais atividades realizadas.
+   
 ## Duvidas
   <html>
     <ul>
