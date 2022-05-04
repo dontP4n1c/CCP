@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="de">De: </string>
+    <string name="para">Para: </string>
+    <string name="assunto">Assunto: </string>
+    <string name="mensagem">Mensagem: </string>
+</resources>

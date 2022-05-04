@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="16dp"
+        android:text="RGM: 19023693"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPrincipal"
+        android:layout_width="113dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/Ativo"
+        android:onClick="MudarInstancia"
+        android:text="Principal"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEmpresarial"
+        android:layout_width="113dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/desativo"
+        android:drawableTop="@drawable/empresarial"
+        android:onClick="MudarInstancia"
+        android:text="Empresarial"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPrincipal" />
+
+    <Button
+        android:id="@+id/btnResidencial"
+        android:layout_width="113dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/desativo"
+        android:drawableTop="@drawable/residencial"
+        android:onClick="MudarInstancia"
+        android:text="Residencial"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/btnEmpresarial"
+        app:layout_constraintTop_toBottomOf="@+id/btnAuto" />
+
+    <Button
+        android:id="@+id/btnViagem"
+        android:layout_width="113dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/desativo"
+        android:drawableTop="@drawable/travel"
+        android:onClick="MudarInstancia"
+        android:text="Viagem"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/btnResidencial"
+        app:layout_constraintTop_toBottomOf="@+id/btnPortateis" />
+
+    <Button
+        android:id="@+id/btnAuto"
+        android:layout_width="113dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="26dp"
+        android:background="@color/desativo"
+        android:drawableTop="@drawable/auto"
+        android:onClick="MudarInstancia"
+        android:text="Auto"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/btnPrincipal"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnPortateis"
+        android:layout_width="113dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/desativo"
+        android:drawableTop="@drawable/portateis"
+        android:onClick="MudarInstancia"
+        android:text="Portateis"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/btnAuto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:text="Marcelo Henrique"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

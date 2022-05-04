@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exemplo2 - BD</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="inserir1">Inserir1</string>
+    <string name="listar">Listar</string>
+    <string name="inserir2">Inserir2</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="deletar">Detelar</string>
+</resources>
