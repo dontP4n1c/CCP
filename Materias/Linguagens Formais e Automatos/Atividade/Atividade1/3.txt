@@ -1,0 +1,1 @@
+e U ((a U b) a* b ((a(a U b ) U b ) a*b) * (e U a))
