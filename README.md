@@ -5,7 +5,7 @@
 ## Sobre
    É um repositório com as demais perguntas, respostas e atividades feitas no curso todo e qualquer, nome ou dado pessoal ou de terceiros não está sendo compartilhado, PDF's de aulas não será disponibilizado por ser conteúdo institucional, apenas está disponível, perguntas e respostas que são de autoria pessoal e de demais atividades realizadas. 
 ### Finalidade
-   Esse repositorio tem como fianalidade ajudar e auxiliar quem deseja entrar na area de ciencias da computação, estou registrando todo o conhecimento que tive ao longo do curso aqui como atividades, cursos, plataformas usadas, codigos que foram feitos, atividades realizadas.
+   Esse repositório tem como finalidade ajudar e auxiliar quem deseja entrar na area de ciências da computação, estou registrando todo o conhecimento que tive ao longo do curso aqui como atividades, cursos, plataformas usadas, códigos que foram feitos, atividades realizadas.
   
    
 ## Duvidas
